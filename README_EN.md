@@ -9,6 +9,20 @@ English · [中文](README.md)
 
 ---
 
+## Preview
+
+<p align="center">
+  <img src="docs/preview.png" alt="Notepad panel illustration" width="760">
+  <br><sub>The panel: pale-yellow paper, built-in checklists, workspace tag, resize handles</sub>
+</p>
+
+<p align="center">
+  <img src="docs/preview-todo.png" alt="Checklist interaction illustration" width="640">
+  <br><sub>Click the circle to switch between a plain note and a todo — no Markdown prefix to type</sub>
+</p>
+
+> Illustrations, not screenshots; they show layout and interaction.
+
 ## Why
 
 Long agent sessions produce fragments you want to keep: a decision, a snippet, a follow-up task for another project. Opening a separate app breaks the flow. `dsh-notepad` keeps one pale-yellow scratchpad inside the composer, shared by every conversation in the browser.

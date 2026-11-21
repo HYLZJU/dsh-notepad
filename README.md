@@ -9,6 +9,20 @@
 
 ---
 
+## 预览
+
+<p align="center">
+  <img src="docs/preview.png" alt="记事本面板示意" width="760">
+  <br><sub>记事本面板：淡黄色便签纸、内置待办、工作区标签、可缩放边角</sub>
+</p>
+
+<p align="center">
+  <img src="docs/preview-todo.png" alt="待办交互示意" width="640">
+  <br><sub>点圆圈即可在普通笔记与待办之间切换，无需手写 Markdown 前缀</sub>
+</p>
+
+> 以上为界面示意图（非实机截图），用于说明布局与交互。
+
 ## 为什么
 
 长会话里总会留下碎片：一个决定、一段代码、跨项目的待办。切出去开别的应用会打断思路。`dsh-notepad` 把一张淡黄色便签纸放进输入框工具栏，整个浏览器共用一份。

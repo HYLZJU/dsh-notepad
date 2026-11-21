@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="420" viewBox="0 0 1000 420" font-family="'Segoe UI','Microsoft YaHei',sans-serif">
+  <defs>
+    <linearGradient id="bg2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#F5F8FC"/><stop offset="1" stop-color="#EEF3FA"/>
+    </linearGradient>
+    <filter id="s2" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="10" stdDeviation="14" flood-color="#5A4620" flood-opacity="0.16"/>
+    </filter>
+  </defs>
+  <rect width="1000" height="420" fill="url(#bg2)"/>
+  <g filter="url(#s2)">
+    <rect x="70" y="70" width="860" height="280" rx="16" fill="#FFFCF1" stroke="#E7D9AE"/>
+  </g>
+
+  <!-- pending row -->
+  <circle cx="120" cy="145" r="12" fill="#FFFDF5" stroke="#C9AE62" stroke-width="2"/>
+  <text x="150" y="151" font-size="18" fill="#43371F">给 README 加预览图</text>
+  <text x="150" y="176" font-size="12" fill="#A08B4E">未完成 → 点圆圈一次变成待办</text>
+
+  <!-- done row -->
+  <circle cx="120" cy="255" r="12" fill="#C58A00" stroke="#C58A00"/>
+  <path d="M114 255l5 5 8-10" fill="none" stroke="#fff" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="150" y="261" font-size="18" fill="#A5946A" text-decoration="line-through">推送 v0.1.6 到 GitHub</text>
+  <text x="150" y="286" font-size="12" fill="#A08B4E">再点一次：标记完成 / 取消完成</text>
+
+  <g font-size="14" fill="#3A4A63">
+    <text x="640" y="112">不需要手写</text>
+    <text x="640" y="134" font-size="18" font-family="'Consolas',monospace" fill="#8A6A10">- [ ]</text>
+    <text x="640" y="158" font-size="12" fill="#6B7C96">状态由插件保存</text>
+  </g>
+
+  <text x="500" y="392" font-size="12" fill="#8A97AB" text-anchor="middle">dsh-notepad · 待办交互示意（非实机截图）</text>
+</svg>
