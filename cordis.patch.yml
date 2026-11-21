@@ -1,0 +1,5 @@
+# Bundle layer: inserts the notepad host row. The browser half is loaded from
+# `dsh.client` in package.json once the profile lists this package.
+- insert:
+    - id: notepad
+      name: dsh-notepad

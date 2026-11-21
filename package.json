@@ -1,0 +1,51 @@
+{
+  "name": "dsh-notepad",
+  "version": "0.1.6",
+  "description": "A global, draggable notepad in the DSH composer toolbar: multiline notes, checklists with workspace attribution, insert one or all into the input.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HYLZJU/dsh-notepad.git"
+  },
+  "homepage": "https://github.com/HYLZJU/dsh-notepad#readme",
+  "bugs": {
+    "url": "https://github.com/HYLZJU/dsh-notepad/issues"
+  },
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./client": "./lib/client.js",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "lib",
+    "cordis.patch.yml",
+    "README.md",
+    "README_EN.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "dsh",
+    "deepseek-harness",
+    "dsh-plugin",
+    "notepad",
+    "todo",
+    "composer"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=20"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "inject": [
+        "@deepseek-ai/dsh-client-ui-conversation",
+        "@deepseek-ai/dsh-client-ui-primitives"
+      ]
+    }
+  }
+}
